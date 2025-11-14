@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-8!0e+75xuk50)%cuy8v+cf*tbu=$wae44%^n*yhlgl=2i$r!*(
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'compilador-7hqr.onrender.com'
     '127.0.0.1:5173',
 
 ]
@@ -55,6 +56,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# Cuando CORS_ALLOW_ALL_ORIGINS es True, la lista CORS_ALLOW_ALL_ORIGINS
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'proyect.urls'
 
